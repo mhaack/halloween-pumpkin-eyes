@@ -1,14 +1,22 @@
+/*
+ * halloween-pumpkin-eyes.ino
+ *
+ * Creepy Pumpkin Eyes Halloween project
+ *
+ * Version: 1.0.0
+ * Author: Markus Haack (http://github.com/mhaack)
+ */
+
 #include <Servo.h>
 
 Servo servos[10];
 
-const int initPos = 90; // variable to store the servo position
+const int initPos = 90;
 const int minPos = 45;
 const int maxPos = 280;
 int pos = 0;
 
-void setup()
-{
+void setup() {
     Serial.begin(115200);
     servos[0].attach(D3);
     servos[1].attach(D4);
@@ -26,17 +34,7 @@ void setup()
     }
     delay(700);
 }
-void loop()
-{
-    // Serial.println("Calibration");
-    // servos[5].write(45);
-    // delay(1000);
-    // servos[5].write(120);
-    // delay(1000);
-    // servos[5].write(280);
-    // delay(5000);
-    // Serial.println("Calibration done");
-
+void loop() {
     for (int i = 0; i < 1000; i++) { // performs the loop 1000 times, loop is ~0.3 sec, 1000 loops is ~5 min
         Serial.print("Loop 1: ");
         Serial.println(i);
@@ -52,5 +50,5 @@ void loop()
     }
 
     Serial.println("Loop done");
-    delay(60000); //1 min delay until loop starts again
+    delay(60000); // 1 min delay until loop starts again
 }

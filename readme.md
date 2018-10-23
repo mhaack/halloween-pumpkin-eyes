@@ -21,6 +21,8 @@ I got the most parts from [Aliexpress](https://www.aliexpress.com). A full list 
 ## Building the circuit
 The wiring is very simple. The 10 servos must be connected to positive and ground of the battery box(es). Additionally ground must be wired to GND of the ESP8266 board to build a common ground. The servo control wires are connected to one GPIO D0-D8 & TX of the ESP8266 board.
 
+![Breadboad](https://github.com/mhaack/halloween-pumpkin-eyes/blob/master/doc/halloween-pumpkin-eyes.png)
+
 ## Software
 
 The software is built using PlatformIO to make life easy.

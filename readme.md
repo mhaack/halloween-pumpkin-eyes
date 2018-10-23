@@ -17,7 +17,7 @@ This project contains the source code to control the 10 eyes and keep them const
 I got the most parts from [Aliexpress](https://www.aliexpress.com). A full list of all the materials and tools to be build this projects can be found on Hackster.io.
 
 ## Building the circuit
-The wiring is very simple. The 10 servos need to connect to positive and ground of the battery box(es). Additionally ground must be wired to GND of the ESP8266 board, but only ground. The control wires are connect to one GPIO D0-D8 & TX of the ESP8266 board.
+The wiring is very simple. The 10 servos must be connected to positive and ground of the battery box(es). Additionally ground must be wired to GND of the ESP8266 board to build a common ground. The servo control wires are connected to one GPIO D0-D8 & TX of the ESP8266 board.
 
 ## Software
 

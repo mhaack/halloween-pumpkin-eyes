@@ -23,6 +23,10 @@ The wiring is very simple. The 10 servos must be connected to positive and groun
 
 <img src="https://github.com/mhaack/halloween-pumpkin-eyes/blob/master/doc/halloween-pumpkin-eyes.png"  alt="Breadboard" width="640">
 
+<img src="https://github.com/mhaack/halloween-pumpkin-eyes/blob/master/doc/electronics-1.jpg"  alt="Electronics 1" width="640">
+
+<img src="hhttps://github.com/mhaack/halloween-pumpkin-eyes/blob/master/doc/electronics-2.jpg"  alt="Electronics 2" width="640">
+
 ## Software
 
 The software is built using PlatformIO to make life easy.

@@ -12,8 +12,8 @@
 Servo servos[10];
 
 const int initPos = 90;
-const int minPos = 45;
-const int maxPos = 280;
+const int minPos = 30;
+const int maxPos = 180;
 int pos = 0;
 
 void setup() {
